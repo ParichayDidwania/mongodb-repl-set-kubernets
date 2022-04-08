@@ -11,6 +11,8 @@ spec:
  template:
    metadata:
      labels:
+       app: mongo
+       selector: mongo
        role: mongo
        environment: test
    spec:
